@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .editor-pane, .preview-pane {
+    flex: 1;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    overflow: auto;
+  }
+  
+  .preview-pane {
+    flex: 1;
+    padding: 1rem;
+    background-color: #f7f7f7;
+    overflow: auto;
+  }
+  
