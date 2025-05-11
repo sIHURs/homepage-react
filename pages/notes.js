@@ -1,6 +1,7 @@
 import { Container, Heading } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Editor from '../components/editor'
+import EditorPreviewer from '../components/editor-previewer.js'
 
 // TODO: add a markdown editor
 
@@ -16,7 +17,8 @@ const Notes = () => (
         Notes - Markdown Editor
       </Heading>
 
-      <Editor />
+      {/* <Editor /> */}
+      <EditorPreviewer />
     </Container>
   </Layout>
 )
